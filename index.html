@@ -1,0 +1,65 @@
+<style>
+	body{
+		background: url(https://subtlepatterns.com/patterns/symphony.png);
+		text-align:center;
+		
+	}
+
+	button{
+		background-color:rgba(100,250,100,.9);
+		font-size: 25px;
+		border-style: bold;
+		border-width: 5px;
+		padding:15px;
+		margin:20px;
+		font-family:'Tangerine', serif;
+		box-shadow: -5px 5px 10px rgba(100,100,100,.8);
+
+	}
+
+	#quote_background{
+		height:250px;
+		width:800px;
+		background-color:rgb(200,230,0);
+		opacity:0.5;
+		margin-left:auto;
+		margin-right:auto;
+		padding:30px;
+		border-radius: 30%;
+		box-shadow: -5px 5px 10px rgba(100,100,100,.8);	
+	}
+
+	p{
+		font-family:"Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+		font-size:25px;
+		text-align:center;
+		padding:20px;
+	}
+	 h1, h3{
+	 	text-align:center;
+	 	padding:20px;
+
+
+</style>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Quote Generator</title>
+	<h1>Random Quote Generator</h1>
+</head>
+<body>
+	<p>Here are some of my favorite quotes to keep you motivated during hard times and while pursuing your dreams.<br/> Keep your eyes on the prize, stay upbeat, and enjoy the journey!</p>
+
+	<a href="#" onclick="newquote()"><button>Generate new quote</button></a>
+	<div id="quote_background">
+		<p class="quotebox" id="text">Be kind, for everyone you meet is fighting a hard battle.</p>
+		<p id="author">Ian MacLaren</p>
+	</div>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
